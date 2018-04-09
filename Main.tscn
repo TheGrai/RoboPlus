@@ -57,7 +57,7 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="Camera" type="Camera" parent="Player" index="2"]
 
-transform = Transform( 0.995741, -0.0214699, 0.0896543, -0.0896247, -0.453237, 0.886873, 0.0215936, -0.891132, -0.453231, 0, 11, -16 )
+transform = Transform( 1, 0, 0, 0, -0.642788, 0.766044, 0, -0.766044, -0.642788, 0, 11, -16 )
 keep_aspect = 1
 cull_mask = 1048575
 environment = null
@@ -70,6 +70,7 @@ fov = 70.0
 size = 1.0
 near = 0.05
 far = 100.0
+_sections_unfolded = [ "Transform" ]
 
 [node name="Ball" parent="." index="8" instance=ExtResource( 8 )]
 
