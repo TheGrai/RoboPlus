@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/0x72_16x16DungeonTileset.v4.png-7c8b22e3b5a37e3b90adf64432a47a07.stex"
+path="res://.import/0x72_16x16DungeonTileset.v4.png-5d3a3c5109c9fb91b5c12c7739f1e71d.stex"
 
 [deps]
 
-source_file="res://Images/0x72_16x16DungeonTileset.v4.png"
+source_file="res://Resources/Images/0x72_16x16DungeonTileset.v4.png"
 source_md5="ecf45c8f046cac83fa351cf572f054a0"
 
-dest_files=[ "res://.import/0x72_16x16DungeonTileset.v4.png-7c8b22e3b5a37e3b90adf64432a47a07.stex" ]
+dest_files=[ "res://.import/0x72_16x16DungeonTileset.v4.png-5d3a3c5109c9fb91b5c12c7739f1e71d.stex" ]
 dest_md5="b37018a972532d5c51d92ffca10e999c"
 
 [params]

@@ -11,9 +11,5 @@ config_version=3
 [application]
 
 config/name="RoboPlus"
-run/main_scene="res://Main.tscn"
+run/main_scene="res://Resources/Scenes/World1.tscn"
 config/icon="res://icon.png"
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"
