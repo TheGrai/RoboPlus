@@ -12,4 +12,10 @@ config_version=3
 
 config/name="RoboPlus"
 run/main_scene="res://Resources/Scenes/World1.tscn"
+run/disable_stdout=true
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1080
+window/size/height=720
