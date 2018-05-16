@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/towerDefense_tile183.png-217279bb85f6ddc0f9bfe06a08d2f025.stex"
+
+[deps]
+
+source_file="res://Resources/Images/PNG/Default size/towerDefense_tile183.png"
+source_md5="36a1b6cc1fe19d92c0366240ba1d3e96"
+
+dest_files=[ "res://.import/towerDefense_tile183.png-217279bb85f6ddc0f9bfe06a08d2f025.stex" ]
+dest_md5="3d087ff7206a79ee3924948bc2419e7d"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
