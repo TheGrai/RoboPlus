@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Resources/tileset_td.tres" type="TileSet" id=1]
 [ext_resource path="res://Characters/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Objects/Sandbag.tscn" type="PackedScene" id=3]
 
 [node name="World 1" type="Node" index="0"]
 
@@ -28,5 +29,9 @@ tile_data = PoolIntArray( 0, 0, 0, 1, 1, 0, 2, 1, 0, 3, 1, 0, 4, 1, 0, 5, 1, 0, 
 [node name="Player" parent="." index="1" instance=ExtResource( 2 )]
 
 position = Vector2( 348.593, 223.51 )
+
+[node name="Sandbag" parent="." index="2" instance=ExtResource( 3 )]
+
+position = Vector2( 588.091, 287.116 )
 
 
