@@ -6,10 +6,19 @@ var speed = 20
 const ACCELERATION = 20
 const MAX_SPEED = 200
 var motion = Vector2()
+var first_run = global.first_run
 
+
+func _ready():
+	if first_run == false:
+		position.x = 500
+		position.y = 300
+		global.first_run = true
 
 func _physics_process(delta):
 	direction = Vector2()
+	
+	
 	
 	var frictionx = false
 	var frictiony = false 

@@ -63,7 +63,6 @@ rotation = -1.74279
 
 position = Vector2( 721.239, 63.7932 )
 rotation = -1.57571
-scale = Vector2( 1, 1 )
 
 [node name="Bushes" type="Node" parent="." index="4"]
 
@@ -73,24 +72,20 @@ editor/display_folded = true
 
 position = Vector2( 52.5895, 190.059 )
 rotation = -1.57571
-scale = Vector2( 1, 1 )
 
 [node name="Bush2" parent="Bushes" index="1" instance=ExtResource( 5 )]
 
 position = Vector2( 56.5895, 57.0591 )
 rotation = -1.57571
-scale = Vector2( 1, 1 )
 
 [node name="Bush3" parent="Bushes" index="2" instance=ExtResource( 5 )]
 
 position = Vector2( 53.5895, 321.059 )
 rotation = -1.57571
-scale = Vector2( 1, 1 )
 
 [node name="Bush4" parent="Bushes" index="3" instance=ExtResource( 5 )]
 
 position = Vector2( 338.59, 492.059 )
 rotation = -1.57571
-scale = Vector2( 1, 1 )
 
 
