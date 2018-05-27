@@ -6,7 +6,7 @@
 [ext_resource path="res://Objects/Sandbag.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Objects/Bush.tscn" type="PackedScene" id=5]
 
-[node name="World 1" type="Node" index="0"]
+[node name="World2" type="Node" index="0"]
 
 [node name="TileMap" type="TileMap" parent="." index="0"]
 
@@ -34,20 +34,20 @@ __meta__ = {
 [node name="Portal" parent="." index="1" instance=ExtResource( 2 )]
 
 position = Vector2( 768.184, 534.162 )
-next_world = "res://Resources/Scenes/World2.tscn"
+next_world = "res://Resources/Scenes/World1.tscn"
 
 [node name="Player" parent="." index="2" instance=ExtResource( 3 )]
 
-position = Vector2( 454.107, 194.871 )
+position = Vector2( 591.769, 288.518 )
 
 [node name="Sandbag" parent="." index="3" instance=ExtResource( 4 )]
 
-position = Vector2( 588.091, 287.116 )
+position = Vector2( 265.196, 225.729 )
 rotation = -0.715714
 
 [node name="Sandbag2" parent="." index="4" instance=ExtResource( 4 )]
 
-position = Vector2( 661.951, 190.646 )
+position = Vector2( 492.523, 129.259 )
 rotation = -1.09871
 
 [node name="Sandbag3" parent="." index="5" instance=ExtResource( 4 )]
@@ -59,24 +59,20 @@ rotation = -1.57571
 
 position = Vector2( 52.5895, 190.059 )
 rotation = -1.57571
-scale = Vector2( 1, 1 )
 
 [node name="Bush2" parent="." index="7" instance=ExtResource( 5 )]
 
 position = Vector2( 56.5895, 57.0591 )
 rotation = -1.57571
-scale = Vector2( 1, 1 )
 
 [node name="Bush3" parent="." index="8" instance=ExtResource( 5 )]
 
 position = Vector2( 53.5895, 321.059 )
 rotation = -1.57571
-scale = Vector2( 1, 1 )
 
 [node name="Bush4" parent="." index="9" instance=ExtResource( 5 )]
 
 position = Vector2( 338.59, 492.059 )
 rotation = -1.57571
-scale = Vector2( 1, 1 )
 
 
