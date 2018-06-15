@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/towerDefense_vector.svg-7194f8dbbc0bee92b3cd84b0e33b9c1f.stex"
+path="res://.import/portal.png-74410afc62c6e7c9b1246e8d19d93ebc.stex"
 
 [deps]
 
-source_file="res://Resources/Images/Vector/towerDefense_vector.svg"
-source_md5="7586e8047f7fa6524e6abb9c7e9519d8"
+source_file="res://Resources/Images/portal.png"
+source_md5="ea0a793227959f2e6bf34eecf9ab5bdf"
 
-dest_files=[ "res://.import/towerDefense_vector.svg-7194f8dbbc0bee92b3cd84b0e33b9c1f.stex" ]
-dest_md5="7a1236e3a7fd70add01b02fb8fa84d26"
+dest_files=[ "res://.import/portal.png-74410afc62c6e7c9b1246e8d19d93ebc.stex" ]
+dest_md5="f4ec9acc3848fb3c62f4230301e31081"
 
 [params]
 

@@ -10,7 +10,7 @@ source_file="res://Resources/Images/Tilesheet/towerDefense_tilesheet@2.png"
 source_md5="e7c09c60e0f50a89816874006ac8c5eb"
 
 dest_files=[ "res://.import/towerDefense_tilesheet@2.png-ddca396ba9b4e3f9873c27a0ab9e77bd.stex" ]
-dest_md5="20b00f967a77a12004b59deba5ec9253"
+dest_md5="deeaa245483b2c19f5d5408aa344e084"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -28,5 +28,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

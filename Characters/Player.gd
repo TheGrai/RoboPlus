@@ -3,29 +3,43 @@ extends KinematicBody2D
 var direction = Vector2()
 
 var speed = 20
-const MAX_SPEED = 400
+const ACCELERATION = 20
+const MAX_SPEED = 200
+var motion = Vector2()
+var first_run = global.first_run
 
-var velocity = Vector2()
 
+func _ready():
+	if first_run == false:
+		position.x = 500
+		position.y = 300
+		global.first_run = true
 
 func _physics_process(delta):
 	direction = Vector2()
+	
+	
+	
+	var frictionx = false
+	var frictiony = false 
 
 	if Input.is_action_pressed("move_left"):
-		direction.x = -1
+		motion.x = max(motion.x-ACCELERATION, -MAX_SPEED)
 	elif Input.is_action_pressed("move_right"):
-		direction.x = 1
-
-	if Input.is_action_pressed("move_up"):
-		direction.y = -1
-	elif Input.is_action_pressed("move_down"):
-		direction.y = 1
-
-	if direction != Vector2():
-		speed = MAX_SPEED
+		motion.x = min(motion.x+ACCELERATION, MAX_SPEED)
 	else:
-		speed = 0
+		frictionx = true
+	
+	if Input.is_action_pressed("move_up"):
+		motion.y = max(motion.y-ACCELERATION, -MAX_SPEED)
+	elif Input.is_action_pressed("move_down"):
+		motion.y = min(motion.y+ACCELERATION, MAX_SPEED)
+	else:
+		frictiony = true
+	
+	if frictionx == true:
+		motion.x = lerp(motion.x, 0, 0.5)
+	if frictiony == true:
+		motion.y = lerp(motion.y, 0, 0.5)
 
-	velocity = speed * direction
-
-	move_and_slide(velocity)
+	move_and_slide(motion)

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/towerDefense_vector.svg-7194f8dbbc0bee92b3cd84b0e33b9c1f.stex"
+path="res://.import/Camping Holiday Poster 1.png-0b2830b75be056cf860f11da6182fc94.stex"
 
 [deps]
 
-source_file="res://Resources/Images/Vector/towerDefense_vector.svg"
-source_md5="7586e8047f7fa6524e6abb9c7e9519d8"
+source_file="res://Resources/Fonts/camping_holiday/Camping Holiday Poster 1.png"
+source_md5="7406d214a6662b3f04cd0e2698cb25c7"
 
-dest_files=[ "res://.import/towerDefense_vector.svg-7194f8dbbc0bee92b3cd84b0e33b9c1f.stex" ]
-dest_md5="7a1236e3a7fd70add01b02fb8fa84d26"
+dest_files=[ "res://.import/Camping Holiday Poster 1.png-0b2830b75be056cf860f11da6182fc94.stex" ]
+dest_md5="d9f60916eac033a766e8d5ee577c30d7"
 
 [params]
 
