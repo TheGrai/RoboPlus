@@ -122,6 +122,4 @@ func _console_test():
 ## Executes when scene is loaded.
 
 func _ready():
-	$HUD/TestButton.connect("pressed", self, "_console_test")
-	cv = CameraView.new($Cameras, 0, 0)
 	vt = VTERM.new($HUD)
