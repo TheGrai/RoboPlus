@@ -1,15 +1,8 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=2 format=2]
 
 [ext_resource path="res://Resources/tileset_td.tres" type="TileSet" id=1]
-[ext_resource path="res://Objects/Portal.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Characters/Player.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Objects/Sandbag.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Objects/Bush.tscn" type="PackedScene" id=5]
-[ext_resource path="res://Objects/Star.tscn" type="PackedScene" id=6]
 
-[node name="World 1" type="Node" index="0"]
-
-[node name="TileMap" type="TileMap" parent="." index="0"]
+[node name="TileMap" type="TileMap"]
 
 mode = 0
 tile_set = ExtResource( 1 )
@@ -31,66 +24,5 @@ tile_data = PoolIntArray( 0, 0, 0, 1, 1, 0, 2, 1, 0, 3, 1, 0, 4, 1, 0, 5, 1, 0, 
 __meta__ = {
 "_edit_lock_": true
 }
-
-[node name="Portal" parent="." index="1" instance=ExtResource( 2 )]
-
-position = Vector2( 890, 110 )
-next_world = "res://Resources/Scenes/World2.tscn"
-
-[node name="Player" parent="." index="2" instance=ExtResource( 3 )]
-
-position = Vector2( 900, 330 )
-
-[node name="Sandbags" type="Node" parent="." index="3"]
-
-editor/display_folded = true
-
-[node name="Sandbag" parent="Sandbags" index="0" instance=ExtResource( 4 )]
-
-position = Vector2( 1026.39, 225.729 )
-rotation = -0.715714
-
-[node name="Sandbag4" parent="Sandbags" index="1" instance=ExtResource( 4 )]
-
-position = Vector2( 1068.14, 78.4006 )
-rotation = 1.37575
-
-[node name="Sandbag2" parent="Sandbags" index="2" instance=ExtResource( 4 )]
-
-position = Vector2( 731.908, 187.768 )
-rotation = -1.74279
-
-[node name="Sandbag3" parent="Sandbags" index="3" instance=ExtResource( 4 )]
-
-position = Vector2( 721.239, 63.7932 )
-rotation = -1.57571
-
-[node name="Bushes" type="Node" parent="." index="4"]
-
-editor/display_folded = true
-
-[node name="Bush" parent="Bushes" index="0" instance=ExtResource( 5 )]
-
-position = Vector2( 52.5895, 190.059 )
-rotation = -1.57571
-
-[node name="Bush2" parent="Bushes" index="1" instance=ExtResource( 5 )]
-
-position = Vector2( 56.5895, 57.0591 )
-rotation = -1.57571
-
-[node name="Bush3" parent="Bushes" index="2" instance=ExtResource( 5 )]
-
-position = Vector2( 53.5895, 321.059 )
-rotation = -1.57571
-
-[node name="Bush4" parent="Bushes" index="3" instance=ExtResource( 5 )]
-
-position = Vector2( 338.59, 492.059 )
-rotation = -1.57571
-
-[node name="Star" parent="." index="5" instance=ExtResource( 6 )]
-
-position = Vector2( 1225.91, 449.279 )
 
 
