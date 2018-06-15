@@ -5,9 +5,9 @@
 [sub_resource type="CircleShape2D" id=1]
 
 custom_solver_bias = 0.0
-radius = 17.4508
+radius = 15.7741
 
-[node name="SmallBush" type="StaticBody2D"]
+[node name="SmallBush" type="StaticBody2D" index="0"]
 
 input_pickable = false
 collision_layer = 1
@@ -16,6 +16,9 @@ constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
 
@@ -26,6 +29,7 @@ _sections_unfolded = [ "Region" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
 
+visible = false
 shape = SubResource( 1 )
 
 
