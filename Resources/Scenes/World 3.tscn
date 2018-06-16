@@ -6,7 +6,7 @@
 [ext_resource path="res://Objects/Bush.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Objects/Sandbag.tscn" type="PackedScene" id=5]
 
-[node name="World 3" type="Node" index="0"]
+[node name="World 3" type="Node"]
 
 [node name="TileMap" parent="." index="0" instance=ExtResource( 1 )]
 
@@ -30,7 +30,11 @@ position = Vector2( -16.6799, 162.292 )
 
 position = Vector2( 41.5988, 17.6742 )
 
-[node name="Bush3" parent="Bush" index="2" instance=ExtResource( 4 )]
+[node name="Bush4" parent="Bush" index="2" instance=ExtResource( 4 )]
+
+position = Vector2( 716, 775 )
+
+[node name="Bush3" parent="Bush" index="3" instance=ExtResource( 4 )]
 
 position = Vector2( 173.266, -14.7029 )
 
@@ -65,5 +69,270 @@ rotation = 0.954157
 
 position = Vector2( 521.576, 286.562 )
 rotation = 1.20918
+
+[node name="Sandbag7" parent="SandBags" index="6" instance=ExtResource( 5 )]
+
+position = Vector2( 602.928, 411.187 )
+rotation = 0.791329
+
+[node name="Sandbag8" parent="SandBags" index="7" instance=ExtResource( 5 )]
+
+position = Vector2( 343.622, 559.722 )
+rotation = 1.10385
+
+[node name="Sandbag9" parent="SandBags" index="8" instance=ExtResource( 5 )]
+
+position = Vector2( 484.604, 768.677 )
+rotation = 1.10385
+
+[node name="Sandbag10" parent="SandBags" index="9" instance=ExtResource( 5 )]
+
+position = Vector2( 597.893, 695.669 )
+rotation = 2.2635
+
+[node name="Sandbag11" parent="SandBags" index="10" instance=ExtResource( 5 )]
+
+position = Vector2( 766.568, 640.283 )
+rotation = 0.551228
+
+[node name="Sandbag12" parent="SandBags" index="11" instance=ExtResource( 5 )]
+
+position = Vector2( 932.725, 451.468 )
+rotation = 0.551228
+
+[node name="Sandbag13" parent="SandBags" index="12" instance=ExtResource( 5 )]
+
+position = Vector2( 1068.67, 524.476 )
+rotation = 0.551228
+
+[node name="Sandbag14" parent="SandBags" index="13" instance=ExtResource( 5 )]
+
+position = Vector2( 892.444, 723.362 )
+rotation = 0.780912
+
+[node name="Sandbag15" parent="SandBags" index="14" instance=ExtResource( 5 )]
+
+position = Vector2( 1194.55, 637.765 )
+rotation = 1.1677
+
+[node name="Sandbag16" parent="SandBags" index="15" instance=ExtResource( 5 )]
+
+position = Vector2( 1209.65, 786.3 )
+rotation = 2.10655
+
+[node name="Sandbag17" parent="SandBags" index="16" instance=ExtResource( 5 )]
+
+position = Vector2( 1146.72, 894.554 )
+rotation = 2.10655
+
+[node name="Sandbag18" parent="SandBags" index="17" instance=ExtResource( 5 )]
+
+position = Vector2( 1053.57, 995.255 )
+rotation = 2.56568
+
+[node name="Sandbag19" parent="SandBags" index="18" instance=ExtResource( 5 )]
+
+position = Vector2( 912.585, 1027.98 )
+rotation = 2.96675
+
+[node name="Sandbag20" parent="SandBags" index="19" instance=ExtResource( 5 )]
+
+position = Vector2( 776.638, 1000.29 )
+rotation = 3.70021
+
+[node name="Sandbag21" parent="SandBags" index="20" instance=ExtResource( 5 )]
+
+position = Vector2( 650.761, 909.659 )
+rotation = 3.88626
+
+[node name="Sandbag22" parent="SandBags" index="21" instance=ExtResource( 5 )]
+
+position = Vector2( 514.814, 907.142 )
+rotation = 4.37817
+
+[node name="Sandbag23" parent="SandBags" index="22" instance=ExtResource( 5 )]
+
+position = Vector2( 227.815, 647.836 )
+rotation = 5.57758
+
+[node name="Sandbag24" parent="SandBags" index="23" instance=ExtResource( 5 )]
+
+position = Vector2( 124.596, 738.467 )
+rotation = 5.57758
+
+[node name="Sandbag25" parent="SandBags" index="24" instance=ExtResource( 5 )]
+
+position = Vector2( 79.2805, 907.142 )
+rotation = 4.66732
+
+[node name="Sandbag26" parent="SandBags" index="25" instance=ExtResource( 5 )]
+
+position = Vector2( 293.271, 917.212 )
+rotation = 4.66732
+
+[node name="Sandbag27" parent="SandBags" index="26" instance=ExtResource( 5 )]
+
+position = Vector2( 290.753, 1070.78 )
+rotation = 4.66732
+
+[node name="Sandbag28" parent="SandBags" index="27" instance=ExtResource( 5 )]
+
+position = Vector2( 76.763, 1065.75 )
+rotation = 4.66732
+
+[node name="Sandbag29" parent="SandBags" index="28" instance=ExtResource( 5 )]
+
+position = Vector2( 79.2805, 1244.49 )
+rotation = 4.66732
+
+[node name="Sandbag30" parent="SandBags" index="29" instance=ExtResource( 5 )]
+
+position = Vector2( 283.201, 1257.08 )
+rotation = 4.66732
+
+[node name="Sandbag31" parent="SandBags" index="30" instance=ExtResource( 5 )]
+
+position = Vector2( 79.2805, 1413.17 )
+rotation = 4.66732
+
+[node name="Sandbag32" parent="SandBags" index="31" instance=ExtResource( 5 )]
+
+position = Vector2( 187.535, 1501.28 )
+rotation = 6.32175
+
+[node name="Sandbag33" parent="SandBags" index="32" instance=ExtResource( 5 )]
+
+position = Vector2( 346.139, 1506.32 )
+rotation = 6.32175
+
+[node name="Sandbag34" parent="SandBags" index="33" instance=ExtResource( 5 )]
+
+position = Vector2( 517.332, 1501.28 )
+rotation = 6.32175
+
+[node name="Sandbag35" parent="SandBags" index="34" instance=ExtResource( 5 )]
+
+position = Vector2( 539.989, 1377.92 )
+rotation = 7.89469
+
+[node name="Sandbag36" parent="SandBags" index="35" instance=ExtResource( 5 )]
+
+position = Vector2( 542.507, 1244.49 )
+rotation = 7.89469
+
+[node name="Sandbag37" parent="SandBags" index="36" instance=ExtResource( 5 )]
+
+position = Vector2( 645.726, 1247.01 )
+rotation = 9.68329
+
+[node name="Sandbag38" parent="SandBags" index="37" instance=ExtResource( 5 )]
+
+position = Vector2( 932.725, 1156.38 )
+rotation = 10.7463
+
+[node name="Sandbag39" parent="SandBags" index="38" instance=ExtResource( 5 )]
+
+position = Vector2( 703.629, 1380.44 )
+rotation = 10.7463
+
+[node name="Sandbag40" parent="SandBags" index="39" instance=ExtResource( 5 )]
+
+position = Vector2( 779.155, 1521.42 )
+rotation = 10.0054
+
+[node name="Sandbag41" parent="SandBags" index="40" instance=ExtResource( 5 )]
+
+position = Vector2( 995.663, 1264.63 )
+rotation = 10.0054
+
+[node name="Sandbag42" parent="SandBags" index="41" instance=ExtResource( 5 )]
+
+position = Vector2( 922.655, 1551.63 )
+rotation = 9.43773
+
+[node name="Sandbag43" parent="SandBags" index="42" instance=ExtResource( 5 )]
+
+position = Vector2( 1053.57, 1551.63 )
+rotation = 9.43773
+
+[node name="Sandbag44" parent="SandBags" index="43" instance=ExtResource( 5 )]
+
+position = Vector2( 1199.58, 1549.11 )
+rotation = 9.43773
+
+[node name="Sandbag45" parent="SandBags" index="44" instance=ExtResource( 5 )]
+
+position = Vector2( 1101.4, 1184.07 )
+rotation = 11.0137
+
+[node name="Sandbag46" parent="SandBags" index="45" instance=ExtResource( 5 )]
+
+position = Vector2( 1335.53, 1518.9 )
+rotation = 11.0137
+
+[node name="Sandbag47" parent="SandBags" index="46" instance=ExtResource( 5 )]
+
+position = Vector2( 1343.08, 1380.44 )
+rotation = 11.0137
+
+[node name="Sandbag48" parent="SandBags" index="47" instance=ExtResource( 5 )]
+
+position = Vector2( 1345.6, 1226.87 )
+rotation = 11.0137
+
+[node name="Sandbag49" parent="SandBags" index="48" instance=ExtResource( 5 )]
+
+position = Vector2( 1345.6, 1226.87 )
+rotation = 11.0137
+
+[node name="Sandbag50" parent="SandBags" index="49" instance=ExtResource( 5 )]
+
+position = Vector2( 1393.43, 1103.51 )
+rotation = 11.5603
+
+[node name="Sandbag51" parent="SandBags" index="50" instance=ExtResource( 5 )]
+
+position = Vector2( 680.971, 325.591 )
+rotation = 11.5603
+
+[node name="Sandbag52" parent="SandBags" index="51" instance=ExtResource( 5 )]
+
+position = Vector2( 771.602, 207.267 )
+rotation = 11.7242
+
+[node name="Sandbag53" parent="SandBags" index="52" instance=ExtResource( 5 )]
+
+position = Vector2( 884.891, 131.741 )
+rotation = 9.32414
+
+[node name="Sandbag54" parent="SandBags" index="53" instance=ExtResource( 5 )]
+
+position = Vector2( 1030.91, 136.776 )
+rotation = 9.69948
+
+[node name="Sandbag55" parent="SandBags" index="54" instance=ExtResource( 5 )]
+
+position = Vector2( 1181.96, 192.162 )
+rotation = 9.89706
+
+[node name="Sandbag56" parent="SandBags" index="55" instance=ExtResource( 5 )]
+
+position = Vector2( 1312.87, 260.136 )
+rotation = 9.89706
+
+[node name="Sandbag57" parent="SandBags" index="56" instance=ExtResource( 5 )]
+
+position = Vector2( 1433.71, 287.828 )
+rotation = 9.41789
+
+[node name="Sandbag58" parent="SandBags" index="57" instance=ExtResource( 5 )]
+
+position = Vector2( 1297.77, 612.59 )
+rotation = 9.08669
+
+[node name="Sandbag59" parent="SandBags" index="58" instance=ExtResource( 5 )]
+
+position = Vector2( 1436.23, 577.345 )
+rotation = 9.43374
 
 

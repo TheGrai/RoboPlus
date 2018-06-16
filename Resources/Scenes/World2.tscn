@@ -56,7 +56,6 @@ rotation = 1.67209
 
 position = Vector2( 906.878, 852.324 )
 rotation = 2.24894
-scale = Vector2( 1, 1 )
 
 [node name="Sandbag2" parent="Sandbags" index="3" instance=ExtResource( 4 )]
 
@@ -72,13 +71,11 @@ rotation = 1.03838
 
 position = Vector2( 301.924, 657.183 )
 rotation = -3.82712
-scale = Vector2( 1, 1 )
 
 [node name="Sandbag3" parent="Sandbags" index="6" instance=ExtResource( 4 )]
 
 position = Vector2( 667.464, 53.8158 )
 rotation = -2.35116
-scale = Vector2( 1, 1 )
 
 [node name="Bushes" type="Node" parent="." index="4"]
 
@@ -86,31 +83,26 @@ scale = Vector2( 1, 1 )
 
 position = Vector2( 52.5895, 190.059 )
 rotation = -1.57571
-scale = Vector2( 1, 1 )
 
 [node name="Bush2" parent="Bushes" index="1" instance=ExtResource( 5 )]
 
 position = Vector2( 56.5895, 57.0591 )
 rotation = -1.57571
-scale = Vector2( 1, 1 )
 
 [node name="Bush3" parent="Bushes" index="2" instance=ExtResource( 5 )]
 
 position = Vector2( 53.5895, 321.059 )
 rotation = -1.57571
-scale = Vector2( 1, 1 )
 
 [node name="Bush4" parent="Bushes" index="3" instance=ExtResource( 5 )]
 
 position = Vector2( 345.392, 538.312 )
 rotation = -1.57571
-scale = Vector2( 1, 1 )
 
 [node name="Bush9" parent="Bushes" index="4" instance=ExtResource( 5 )]
 
 position = Vector2( 168.543, 687.953 )
 rotation = -0.837014
-scale = Vector2( 1, 1 )
 
 [node name="Bush5" parent="Bushes" index="5" instance=ExtResource( 5 )]
 

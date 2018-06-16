@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://MainInit.gd" type="Script" id=1]
 [ext_resource path="res://Resources/tileset_td.tres" type="TileSet" id=2]
@@ -9,12 +9,11 @@
 [ext_resource path="res://Objects/SmallBush.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Objects/Block.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Resources/Scenes/QuestionTriggers.gd" type="Script" id=9]
-[ext_resource path="res://Resources/QuestionTrigger.gd" type="Script" id=10]
 
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 28.0273, 31.8552 )
+extents = Vector2( 37.6342, 26.4039 )
 
 [node name="World 1" type="Node" index="0"]
 
@@ -56,7 +55,7 @@ next_world = "res://Resources/Scenes/World2.tscn"
 [node name="Portal3" parent="." index="3" instance=ExtResource( 3 )]
 
 position = Vector2( 233.698, 703.871 )
-next_world = "res://Resources/Scenes/World2.tscn"
+next_world = "res://Resources/Scenes/World 3.tscn"
 
 [node name="Player" parent="." index="4" instance=ExtResource( 4 )]
 
@@ -87,8 +86,6 @@ position = Vector2( 721.239, 63.7932 )
 rotation = -1.57571
 
 [node name="Bushes" type="Node" parent="." index="6"]
-
-editor/display_folded = true
 
 [node name="Bush" parent="Bushes" index="0" instance=ExtResource( 6 )]
 
@@ -501,40 +498,19 @@ rotation = -1.87146
 editor/display_folded = true
 script = ExtResource( 9 )
 
-[node name="Portal_Trigger_1" type="Area2D" parent="QuestionTriggers" index="0"]
+[node name="Question_Trigger" type="StaticBody2D" parent="QuestionTriggers" index="0"]
 
-editor/display_folded = true
-position = Vector2( 380.172, 558.85 )
-rotation = 0.799296
-scale = Vector2( 4.04737, 2.0529 )
-input_pickable = true
-gravity_vec = Vector2( 0, 1 )
-gravity = 98.0
-linear_damp = 0.1
-angular_damp = 1.0
-audio_bus_override = false
-audio_bus_name = "Master"
-script = ExtResource( 10 )
+position = Vector2( 834.403, 293.906 )
+scale = Vector2( 3.55726, 1.31547 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="QuestionTriggers/Portal_Trigger_1" index="0"]
-
-shape = SubResource( 1 )
-
-[node name="Portal_Trigger_2" type="Area2D" parent="QuestionTriggers" index="1"]
-
-position = Vector2( 1117.25, -337.862 )
-rotation = 1.96952
-scale = Vector2( 6.64134, 2.0529 )
-input_pickable = true
-gravity_vec = Vector2( 0, 1 )
-gravity = 98.0
-linear_damp = 0.1
-angular_damp = 1.0
-audio_bus_override = false
-audio_bus_name = "Master"
-script = ExtResource( 10 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="QuestionTriggers/Portal_Trigger_2" index="0"]
+[node name="Blocker" type="CollisionShape2D" parent="QuestionTriggers/Question_Trigger" index="0"]
 
 shape = SubResource( 1 )
 
