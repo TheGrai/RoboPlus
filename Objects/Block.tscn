@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Resources/Images/Tilesheet/towerDefense_tilesheet@2.png" type="Texture" id=1]
+
+[node name="Block" type="StaticBody2D" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 2444, 908, 103.212, 104.252 )
+_sections_unfolded = [ "Region" ]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="1"]
+
+visible = false
+build_mode = 0
+polygon = PoolVector2Array( 33.5253, 51.1297, 51.0911, 34.6393, 51.0911, -34.5485, 33.5253, -52.8313, -34.2286, -52.4728, -51.7944, -33.8315, -51.7944, 33.9223, -34.2286, 51.1297 )
+
+
