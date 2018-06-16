@@ -7,7 +7,7 @@
 custom_solver_bias = 0.0
 radius = 15.7741
 
-[node name="SmallBush" type="StaticBody2D" index="0"]
+[node name="SmallBush" type="StaticBody2D"]
 
 input_pickable = false
 collision_layer = 1
