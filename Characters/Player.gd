@@ -11,8 +11,8 @@ var first_run = global.first_run
 
 func _ready():
 	if first_run == false:
-		position.x = 500
-		position.y = 300
+		position.x = 300
+		position.y = -370
 		global.first_run = true
 
 func _physics_process(delta):
