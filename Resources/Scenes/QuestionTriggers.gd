@@ -42,11 +42,16 @@ var question
 
 class Question:
 	var questionBox
+	var questionText
+	var questionButtons
 	var questions
 	var hud
+	var active
 	func _init(questionList, hud):
 		self.questions = questionList
 		self.questionBox = ColorRect.new()
+		self.questionText = Label.new()
+		self.questionButtons = []
 		questionBox.set_position(Vector2(10, 10))
 		questionBox.set_size(Vector2(100, 100))
 		self.hud = hud
@@ -54,15 +59,22 @@ class Question:
 		randomize()
 		return self.questions[randi()%len(self.questions)]
 	func show_random_question():
-		self.hud.call_deferred("add_child", self.questionBox)
+		if not active:
+			active = true
+			get_node("Player").shouldMove = false
+			print("Activated")
+			self.hud.call_deferred("add_child", self.questionBox)
+			
+		
 
 func _ready():
 	hud = get_node("../HUD")
 	question = Question.new(QUESTIONS, hud)
 
-
-
-#func _process(delta):
-#	# Called every frame. Delta is time since last frame.
-#	# Update game logic here.
-#	pass
+func _physics_process(delta):
+	var children = get_children()
+	for child in children:
+		var chilc = child.get_overlapping_bodies()
+		for chilcc in chilc:
+			if chilcc.name == "Player":
+				question.show_random_question()
